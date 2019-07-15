@@ -3,13 +3,19 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testng.Priority">
+      <class name="com.testng.BrowserSettings">
         <methods>
-          <include name="LinkText"/>
-          <include name="close"/>
-          <include name="Testngasics"/>
+          <include name="dynamicxpath"/>
+          <include name="getmethod"/>
+          <include name="navigationmethod"/>
+          <include name="Xpathmethod"/>
+          <include name="windowmethod"/>
+          <include name="setUp"/>
+          <include name="teatDown"/>
+          <include name="getsizemethod"/>
+          <include name="getpositionmethod"/>
         </methods>
-      </class> <!-- com.testng.Priority -->
+      </class> <!-- com.testng.BrowserSettings -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
