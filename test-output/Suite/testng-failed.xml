@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.testng.TestAnnotations">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="enterUrl"/>
+          <include name="Login"/>
+          <include name="SetUp"/>
+          <include name="Loginpage"/>
+          <include name="Homepage"/>
+          <include name="logout"/>
+          <include name="ClearCokkies"/>
+          <include name="launchBrowser"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- com.testng.TestAnnotations -->
+      <class name="com.testng.DependnsOn">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="dropDown1"/>
+        </methods>
+      </class> <!-- com.testng.DependnsOn -->
+      <class name="com.testng.Priority">
+        <methods>
+          <include name="LinkText"/>
+          <include name="close"/>
+          <include name="Testngasics"/>
+          <include name="getUrl"/>
+          <include name="getTitle"/>
+        </methods>
+      </class> <!-- com.testng.Priority -->
+      <class name="com.testng.BrowserSettings">
+        <methods>
+          <include name="dynamicxpath"/>
+          <include name="getmethod"/>
+          <include name="navigationmethod"/>
+          <include name="Xpathmethod"/>
+          <include name="windowmethod"/>
+          <include name="setUp"/>
+          <include name="teatDown"/>
+          <include name="getsizemethod"/>
+          <include name="getpositionmethod"/>
+        </methods>
+      </class> <!-- com.testng.BrowserSettings -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

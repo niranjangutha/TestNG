@@ -5,6 +5,8 @@
     <classes>
       <class name="com.testng.TestAnnotations"/>
       <class name="com.testng.Priority"/>
+      <class name="com.testng.BrowserSettings"/>
+      <class name="com.testng.DependnsOn"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

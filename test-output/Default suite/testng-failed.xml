@@ -3,19 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testng.BrowserSettings">
+      <class name="com.testng.DependnsOn">
         <methods>
-          <include name="dynamicxpath"/>
-          <include name="getmethod"/>
-          <include name="navigationmethod"/>
-          <include name="Xpathmethod"/>
-          <include name="windowmethod"/>
-          <include name="setUp"/>
-          <include name="teatDown"/>
-          <include name="getsizemethod"/>
-          <include name="getpositionmethod"/>
+          <include name="dropDown2"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="dropDown1"/>
         </methods>
-      </class> <!-- com.testng.BrowserSettings -->
+      </class> <!-- com.testng.DependnsOn -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -31,17 +31,17 @@ public class BrowserSettings {
 	System.setProperty("webdriver.chrome.driver", ".//browsers//chromedriver.exe");	
 	 driver=new ChromeDriver(opt);
 	driver.manage().window().maximize();
-	driver.get("https://www.softwaretestingmaterial.com/");
-	Thread.sleep(5000);
-	WebDriverWait wait=new WebDriverWait(driver, 20);// explicit wait declaration 
-//	wait.until(ExpectedConditions.visibilityOf(element));// explicit wait condition 
-	driver.findElement(By.xpath("//span[contains(text(),'Training')]")).sendKeys(Keys.CONTROL + "t");
-	//wait.until(ExpectedConditions.visibilityOf(training));
-	System.out.println("Title:"+driver.getTitle());
-	((JavascriptExecutor)driver).executeScript("scroll(0,500)");
-
-	
-	((JavascriptExecutor)driver).executeScript("scroll(0,500)");// scroll the web page using javaScript
+//	driver.get("https://www.softwaretestingmaterial.com/");
+//	Thread.sleep(5000);
+//	WebDriverWait wait=new WebDriverWait(driver, 20);// explicit wait declaration 
+////	wait.until(ExpectedConditions.visibilityOf(element));// explicit wait condition 
+//	driver.findElement(By.xpath("//span[contains(text(),'Training')]")).sendKeys(Keys.CONTROL + "t");
+//	//wait.until(ExpectedConditions.visibilityOf(training));
+//	System.out.println("Title:"+driver.getTitle());
+//	((JavascriptExecutor)driver).executeScript("scroll(0,500)");
+//
+//	
+//	((JavascriptExecutor)driver).executeScript("scroll(0,500)");// scroll the web page using javaScript
 
 	}
 	@Test
